@@ -1,0 +1,40 @@
+.text-center {
+  text-align: center;
+}
+
+.counter-block {
+  margin: 0 auto;
+  width: 18%;
+}
+input.text-center {
+  height: 52px;
+  width: 60px;
+  border-top: 1px solid #a54946;
+  border-bottom: 1px solid #a54946;
+  border-left: none;
+  border-right: none;
+  color: #a54946;
+  font-size: 20px;
+  font-weight: bold;
+  background: #f8e9e9;
+}
+
+button.btn {
+  height: 56px;
+  width: 60px;
+  border: 1px solid #a54946;
+  color: #a54946;
+  font-size: 20px;
+  font-weight: bold;
+  background: #ffffff;
+}
+button.btn:hover {
+  background: #a54946;
+  color: #ffffff;
+}
+button.btn-substruct {
+  border-radius: 11px 0px 0px 11px;
+}
+button.btn.btn-add {
+  border-radius: 0px 10px 10px 0px;
+}
