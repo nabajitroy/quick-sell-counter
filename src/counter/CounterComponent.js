@@ -22,7 +22,7 @@ function CounterComponent() {
 
     return (
         <div className="counterApp">
-            <h1 data-testid="header">Counter App</h1>
+            <h1 data-testid="header">FrontEnd Mini Task</h1>
             <h3 data-testid="counter">{counter}</h3>
 
             <div className="counter-block">
