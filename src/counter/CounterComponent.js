@@ -4,7 +4,7 @@ import './counter.css'
 function CounterComponent() {
     const [counter, setCounter] = useState(0)
     const [inputValue, setInitialValue] = useState(1)
-    let maxValue = 1010;
+    let maxValue;
 
     const addToCounter = () => {
         let max = maxValue ? maxValue : 1000;
